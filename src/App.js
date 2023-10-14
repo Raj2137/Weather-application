@@ -3,7 +3,7 @@ import Inputs from './Components/Inputs';
 import TemperandDetlis from './Components/TemperandDetlis';
 import TimeandLocation from './Components/TimeandLocation';
 import Topmenu from './Components/Topmenu';
-import UilReact from '@iconscout/react-unicons/icons/uil-react'
+ 
 import getFormattedWeatherData from './Service/WeatherService';
 import { useState } from 'react';
 import { useEffect } from 'react';
