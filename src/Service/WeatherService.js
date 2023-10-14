@@ -68,8 +68,8 @@ const {lat, lon}= formatCurrentWeather;
 
 
 const formattedForecastWeather =  await getWeatherData("onecall", {
-    lat: 48.8534, 
-    lon : 2.3488,
+    lat: 10.99, 
+    lon : 44.34,
     exclude: "current,minutely,alerts",units: searchParams.units,}).then(formatForecastWeather);
 
 return {...formattedCurrentWeather, ...formattedForecastWeather};

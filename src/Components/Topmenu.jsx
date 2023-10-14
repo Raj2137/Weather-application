@@ -5,7 +5,7 @@ function Topmenu({setQuery}) {
     const cities= [
         {
             id: 1,
-            title: "oklahoma"
+            title: "New York"
         },
         {
             id: 2,
